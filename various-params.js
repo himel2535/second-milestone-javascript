@@ -36,3 +36,11 @@ function text(array){
     console.log(len)
 }
 text([12,3,4,1,5,2,8])
+
+
+// ---function with object---->
+
+function getAge(person){
+    const age=person.age;
+    return age;
+}
