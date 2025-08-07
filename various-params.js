@@ -31,3 +31,8 @@ const y=doubleOrTriple(5,false)
 
 // ------function with array--->
 
+function text(array){
+    len=array.length;
+    console.log(len)
+}
+text([12,3,4,1,5,2,8])
