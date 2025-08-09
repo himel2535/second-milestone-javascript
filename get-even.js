@@ -9,7 +9,7 @@ function getEven(numbers){
 }
 let arr=[2,6,3,9,10];
 result=getEven(arr);
-// console.log(result);
+console.log(result);
 
 
 function sumEven(numbers){

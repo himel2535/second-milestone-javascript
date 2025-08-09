@@ -14,37 +14,35 @@
 // console.log(update_products);
 
 //-----One way for unchanged copy ---->
-// let products=[23,20,78,100];
-// let com_products=[]
-// for(let product of products){
-//     com_products.push(product)
-// }
+let products=[23,20,78,100];
+let com_products=[]
+for(let product of products){
+    com_products.push(product)
+}
 
-// products[0]=200;
-// com_products[1]=500;
-// console.log(products);
-// console.log(com_products);
+products[0]=200;
+com_products[1]=500;
+console.log(products);
+console.log(com_products);
 
 //------another way for unchanged copy------>
 
-// let products=[23,20,78,100];
-// let com_products=Array.from(products)
-
-
-// products[0]=200;
-// com_products[1]=500;
-// console.log(products);
-// console.log(com_products);
+let products=[23,20,78,100];
+let com_products=Array.from(products)
+products[0]=200;
+com_products[1]=500;
+console.log(products);
+console.log(com_products);
 
 
 //-------another way for unchanged copy----->
 
-// let products=[23,20,78,100];
-// let com_products=[].concat(products)
-// products[0]=200;
-// com_products[1]=500;
-// console.log(products);
-// console.log(com_products);
+let products=[23,20,78,100];
+let com_products=[].concat(products)
+products[0]=200;
+com_products[1]=500;
+console.log(products);
+console.log(com_products);
 
 
 // simple way for unchanged---->
