@@ -9,6 +9,7 @@ function inchToFeet(inch){
     // const inch=75;
     feetHeight=inch/12;
     inchHeight=inch%12;
-    console.log(parseInt(feetHeight),'feet',inchHeight,'inch')
+    console.log(parseInt(feetHeight),'feet',inchHeight,'inch');
+    return ;
 }
 inchToFeet(66);
