@@ -9,7 +9,7 @@ console.log(a,b)
 
 // ------Another way(Destructure)----//
 let x=7;
-let y=10;
+let y='gfh';
 console.log(x,y);
 [x,y]=[y,x];
 console.log(x,y)
