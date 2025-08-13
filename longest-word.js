@@ -1,6 +1,5 @@
 let sentence="I am learning Programming to become a programmer"
-let text=sentence.toLowerCase()
-let words=text.split(" ");
+let words=sentence.split(" ");
 function longestWord(words){
     let long=[0];
     for (word of words){
